@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { assets } from "../assets/assets";
 const Navbar = () => {
   const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "Hotels", path: "/" },
-    { name: "Experiences", path: "/" },
-    { name: "About", path: "/" },
+    { name: "Home", path: "/home" },
+    { name: "Hotels", path: "/hotels" },
+    { name: "Experiences", path: "/experiences" },
+    { name: "About", path: "/about" },
   ];
 
   const [isScrolled, setIsScrolled] = React.useState(false);
